@@ -1,0 +1,282 @@
+{
+	"name": "Event sheet nivel inicial",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "moneda",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 281627515319939
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 245665227131176,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Coche",
+					"sid": 630695324951123,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "up"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Coche",
+					"sid": 473152080711300,
+					"parameters": {
+						"angle": "270"
+					}
+				}
+			],
+			"sid": 707347920453302
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 457495219696109,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Coche",
+					"sid": 598284055692911,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Coche",
+					"sid": 543049970668634,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 360213771416345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 663462195761751,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Coche",
+					"sid": 447458016972531,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "down"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Coche",
+					"sid": 201004323577881,
+					"parameters": {
+						"angle": "90"
+					}
+				}
+			],
+			"sid": 352539213237614
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 581976608626515,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Coche",
+					"sid": 618998384817274,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Coche",
+					"sid": 966377131126439,
+					"parameters": {
+						"angle": "0"
+					}
+				}
+			],
+			"sid": 900251512491368
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Sprite4",
+					"sid": 620474832068066,
+					"parameters": {
+						"object": "Coche"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 951862847484740
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 265419510623510,
+					"parameters": {
+						"variable": "pieza",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 305069351384103
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 678301350874854,
+					"parameters": {
+						"key": 79
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ganado",
+					"sid": 990963082908850,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 145117081162037,
+					"parameters": {
+						"layout": "Nivel final"
+					}
+				}
+			],
+			"sid": 584010082036032
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Coche",
+					"sid": 623135844723326,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 232390487053761
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 285480019817879,
+					"parameters": {
+						"variable": "moneda",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 697063821394720
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Coche",
+					"sid": 204589536770412,
+					"parameters": {
+						"object": "Sprite"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 923870317988139,
+					"parameters": {
+						"first-value": "moneda",
+						"comparison": 0,
+						"second-value": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ganado",
+					"sid": 428523048664868,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 747158223963968,
+					"parameters": {
+						"layout": "Nivel final"
+					}
+				}
+			],
+			"sid": 630551228706538
+		}
+	],
+	"sid": 898616255156793
+}

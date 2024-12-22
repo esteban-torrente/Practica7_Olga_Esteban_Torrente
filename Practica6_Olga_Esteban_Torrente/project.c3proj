@@ -78,7 +78,8 @@
 			"fin",
 			"repetir",
 			"RaceTillInfinity",
-			"Text"
+			"Text",
+			"Text2"
 		],
 		"subfolders": []
 	},
@@ -91,18 +92,18 @@
 	"layouts": {
 		"items": [
 			"inicio",
-			"Race",
 			"Nivel final",
-			"The End"
+			"The End",
+			"nivel inicial"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 2 (nivel 1)",
 			"Event sheet 3 (nivel 2)",
 			"Event sheet 4 (final)",
-			"Event sheet 1 (inicio)"
+			"Event sheet 1 (inicio)",
+			"Event sheet nivel inicial"
 		],
 		"subfolders": []
 	},

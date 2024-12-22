@@ -50,39 +50,6 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 847546808648549,
-					"parameters": {
-						"key": 37
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "simulate-control",
-					"objectClass": "Coche",
-					"sid": 261253924668852,
-					"behaviorType": "TileMovement",
-					"parameters": {
-						"control": "left"
-					}
-				},
-				{
-					"id": "set-angle",
-					"objectClass": "Coche",
-					"sid": 948298897883582,
-					"parameters": {
-						"angle": "180"
-					}
-				}
-			],
-			"sid": 783818293245397
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "key-is-down",
-					"objectClass": "Keyboard",
 					"sid": 544318824967678,
 					"parameters": {
 						"key": 39
@@ -109,6 +76,39 @@
 				}
 			],
 			"sid": 383171510808491
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 810649184771761,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Coche",
+					"sid": 374703781042505,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Coche",
+					"sid": 485515185823138,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 796886715121968
 		},
 		{
 			"eventType": "block",

@@ -15,14 +15,6 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 311990310481269,
-					"parameters": {
-						"layout": "Race"
-					}
-				},
-				{
 					"id": "reset-global-variables",
 					"objectClass": "System",
 					"sid": 859734839152677,
@@ -36,6 +28,14 @@
 					"sid": 179346433087813,
 					"parameters": {
 						"slot": "\"inicio\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 165289686835173,
+					"parameters": {
+						"layout": "nivel inicial"
 					}
 				}
 			],
