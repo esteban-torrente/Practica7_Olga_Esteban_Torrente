@@ -90,19 +90,19 @@
 	},
 	"layouts": {
 		"items": [
-			"layout 1",
+			"inicio",
 			"Race",
-			"Layout 3",
+			"Nivel final",
 			"The End"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet Race",
-			"Event sheet 3",
-			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2 (nivel 1)",
+			"Event sheet 3 (nivel 2)",
+			"Event sheet 4 (final)",
+			"Event sheet 1 (inicio)"
 		],
 		"subfolders": []
 	},

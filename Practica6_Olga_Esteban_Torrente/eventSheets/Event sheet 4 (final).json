@@ -1,0 +1,30 @@
+{
+	"name": "Event sheet 4 (final)",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "mouse-button-is-down",
+					"objectClass": "Mouse",
+					"sid": 345678509243200,
+					"parameters": {
+						"mouse-button": "left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 490247050491722,
+					"parameters": {
+						"slot": "\"inicio\""
+					}
+				}
+			],
+			"sid": 407407079361564
+		}
+	],
+	"sid": 417914102478216
+}
