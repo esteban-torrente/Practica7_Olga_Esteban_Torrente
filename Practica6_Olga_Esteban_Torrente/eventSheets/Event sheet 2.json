@@ -1,0 +1,38 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 934071695806231,
+					"parameters": {
+						"key": 90
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 311990310481269,
+					"parameters": {
+						"layout": "Race"
+					}
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 859734839152677,
+					"parameters": {
+						"reset-static": true
+					}
+				}
+			],
+			"sid": 219348218503151
+		}
+	],
+	"sid": 390321998874521
+}

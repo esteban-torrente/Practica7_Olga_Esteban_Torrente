@@ -1,0 +1,45 @@
+{
+	"name": "MAP",
+	"plugin-id": "Tilemap",
+	"sid": 225635611961454,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "laps",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 464878879182053
+		},
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "nº de vueltas del coche",
+			"show": true,
+			"sid": 776831137427210
+		},
+		{
+			"name": "Variable2",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 675054688722902
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 352,
+		"height": 224,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 7250244,
+		"useCollisionPoly": true,
+		"tag": ""
+	},
+	"tile-collision-polys": {}
+}
