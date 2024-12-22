@@ -74,7 +74,7 @@
 					"properties": {
 						"text": "Has ganado!",
 						"enable-bbcode": true,
-						"font": "fantasy",
+						"font": "Britannic",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
@@ -109,9 +109,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 184,
+						"x": 231,
 						"y": 180,
-						"width": 455,
+						"width": 408,
 						"height": 83,
 						"originX": 0,
 						"originY": 0,
@@ -128,7 +128,7 @@
 				{
 					"type": "repetir",
 					"properties": {
-						"text": "Pulsa \"enter\" para repetir el minijuego",
+						"text": "Pulsa \"z\" para repetir el minijuego.",
 						"enable-bbcode": true,
 						"font": "monospace",
 						"size": 12,
@@ -225,5 +225,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Event sheet 4 (final)"
 }
